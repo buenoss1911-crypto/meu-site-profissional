@@ -32,3 +32,15 @@ button:hover {
 button:active {
     transform: scale(0.95);
 }
+
+/* Quando o body tiver a classe 'dark-mode', essas regras valem: */
+body.dark-mode {
+    background-color: #282c34;
+    color: white;
+}
+
+/* Também podemos mudar o botão quando estiver no modo escuro */
+body.dark-mode button {
+    background-color: #444;
+    color: #00ff88; /* Um verde neon para destacar */
+}
